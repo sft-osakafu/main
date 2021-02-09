@@ -1,1 +1,66 @@
-
+body	{font-family: 'メイリオ’,
+		'Hiragino Kaku Gothic Pro',
+		sans-serif;
+	background-color: #87cefa;
+	margin: 0}
+	h1	{font-size: 38px;
+		margin-top: 0;
+		margin-bottom: 0}
+		p	{line-height: 1.5}
+			/*ヘッダー*/
+			header	{background-color: #ffffff;
+				border-bottom: solid 1px #aaaaaa;
+				margin-bottom: 30px;
+				-webkit-box-shadow: 0 1px 7px #aaaaaa;
+				box-shadow: 0 1px 7px #aaaaaa;
+				padding: 5px}
+				
+				header h1	{font-size: 40px;
+					width: 900px;
+					margin-left: auto;
+					margin-right: auto}
+					
+					header h1 img	{vertical-align: -15px;
+						margin-right: 10px;
+					}
+				
+				/*記事*/
+				article	{background-color: #ffffff;
+					width: 900px;
+					margin-left: auto;
+					margin-right: auto;
+					border: solid 1px #aaaaaa;
+					padding: 30px;
+					-webkit-box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					box-sizing: border-box;
+					margin-bottom: 15px;
+					box-shadow: 1px 1px 3px #aaaaaaa;
+					webkit-box-shadouw: 1px 1px 3px #aaaaaa;
+					border-radius: 20px}				
+				/*フッター*/
+				footer	{width: 900px;
+					margin-left: auto;
+							margin-right: auto}
+							/*画像を右に並べる*/
+							figure.photo-left {
+								float: left;
+								margin-top: 10px;
+								margin-right: 100px;
+							}
+							
+							/*画像を左に寄せる*/
+							figure.photo-right {
+								float: right;
+							}
+							
+							/*画像を中央に配置*/
+							figure.photo-center {
+								text-align: center;
+								margin-left: 160px;
+							}
+							
+							p.one {
+								clear: both;
+								font-size: 18px;
+							}
